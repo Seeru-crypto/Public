@@ -4,9 +4,15 @@ import pywhatkit as kit
 # "PhoneNr", "text", hours, min, timeMsgIsSentAfterOpeningWa
 #kit.sendwhatmsg("+372 5648 5582", "test2", 17, 28, 5, True)
 
+# TestingPhoneNr = "+1 (415) 523-8886"  
 
 
-MsgText = "\n Hei \n Ma ei hakkanud sulle helistama, kuna ... you know oled Saksamaal. \n Nii et järgmine parim asi saadan WhatsAppi teel. \n  Happy New Year you filty animal XD \n PS: Loodetavasti saame järgmine aasta uuesti metsas sauna vaime ära ajada"
-DestinationPhoneNr = "+372 5648 5582"
-TestingPhoneNr = "+1 (415) 523-8886"
-kit.sendwhatmsg(DestinationPhoneNr, MsgText, 00, 00, 5, True)
+AinText = ""
+DestinationPhoneNr = ""
+kit.sendwhatmsg(DestinationPhoneNr, AinText, 23, 59, 10, True)
+
+KasparText = ""
+DestinationPhoneNr2 = ""
+kit.sendwhatmsg(DestinationPhoneNr2, KasparText, 00, 00, 10, True)
+
+

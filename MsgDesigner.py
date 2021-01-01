@@ -1,2 +1,2 @@
-MsgText = "\n Hei \n Ma ei hakkanud sulle helistama, kuna ... you know oled Saksamaal. \n Nii et järgmine parim asi saadan WhatsAppi teel. \n  Happy New Year you filty animal XD \n PS: Loodetavasti saame järgmine aasta uuesti metsas sauna vaime ära ajada"
+MsgText = "\n Hei Kaisa! \n Toredat"
 print (MsgText)
