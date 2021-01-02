@@ -1,2 +1,2 @@
-MsgText = "\n Hei Kaisa! \n Toredat"
+MsgText = "\n Hei\n This is a message!"
 print (MsgText)
