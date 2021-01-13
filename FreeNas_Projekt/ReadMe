@@ -1,0 +1,14 @@
+Üldkirjeldus:
+Projekt FreeNas eesmärk oli luua koduserver kasutades vabavara FreeNas (https://www.freenas.org).
+Kasutades põhi ketaste puhul RaidZ1 arhidektuuri ning lisaks luues eraldatud pool´d/ partitsioonid isiklike andmete ning serveri poolt pakutud teenuste vahel 
+(kodu meedia server, meili server jne).
+
+Realiseeritud funktsionaalsused: 
+    -Server hostib võrgu kettaid, nõudes eraldi audentimist. 
+    -Hostib kodu meedia serverit "emby".
+    -Sünkroonib nii lauaarvuti kui ka läptopi kindlate kaustade sisu kasutades teenust "syncthing". Tagades tähtsate failide terviklikkuse ning tagavara koopiate olemasolu. 
+
+Tuleviku funktsionaalsused:
+    -plaanin avada serveri välis võrguga tagades turvalisuse SSL´ga
+    -hostida enda meili serverit.
+    -Hostida oma SQL serverit (MySQL või microsoft SQL express). 
